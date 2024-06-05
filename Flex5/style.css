@@ -1,0 +1,44 @@
+
+.container {
+    background-color: #e5e5e5;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+
+
+.box {
+    padding: 20px;
+    background-color: crimson;
+    margin: 10px;
+}
+.wrapper {
+    width: 300px;
+    padding: 10px;
+    background-color: pink;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
