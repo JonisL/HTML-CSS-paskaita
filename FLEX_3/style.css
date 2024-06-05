@@ -1,0 +1,31 @@
+
+.container {
+    background-color: #e5e5e5;
+    flex-direction: row;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.box {
+    padding: 50px;
+    background-color: crimson;
+    margin: 10px;
+}
