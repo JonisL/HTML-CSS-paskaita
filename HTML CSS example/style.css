@@ -1,0 +1,61 @@
+
+
+.toolbar {
+    background-color: #e9e9e9;
+}
+
+.myButton {
+    background-color: pink;
+    display: inline-block;
+}
+
+.post1 {
+    background-color: #b8ffe6;
+}
+
+.post2 {
+    background-color: #cfdcff;
+}
+
+.footer {
+    background-color: #ffdac7;
+}
+
+.buttonImage {
+    height: 50px;
+    width: 50px;
+    background-image: url("https://www.iconpacks.net/icons/2/free-click-icon-2384-thumb.png");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+
+.postImage {
+    height: 200px;
+    width: 200px;
+    background-image: url("https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.dinline {
+    display: inline-block;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mr50 {
+    margin-right: 50px;
+}
