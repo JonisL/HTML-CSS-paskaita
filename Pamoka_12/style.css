@@ -1,0 +1,139 @@
+.container {
+    background-color: darkslategray;
+    width: 900px;
+    height: 280px;
+    margin-bottom: 15px;
+}
+
+.flexcrate {
+    background-color: #e53333;
+    color: white;
+}
+
+.mar10 {
+    margin: 10px;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+/* Su CSS Grid */
+
+.item1 {
+    grid-area: one;
+}
+
+.item2 {
+    grid-area: two;
+}
+
+.item3 {
+    grid-area: three;
+}
+
+.item4 {
+    grid-area: four;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    grid-template-areas:
+    "one one two two"
+    "one one two two"
+    "one one three four"
+    "one one three four";
+}
+
+.gridcolor {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+
+/* =======GRID======= */
+/* Turns on Display Grid */
+/* This generate block-level grid */
+.d-grid {
+    display: grid;
+}
+
+/* This generates inline-level grid */
+.d-inline-grid {
+    display: inline-grid;
+}
+
+/* =======FLEX======= */
+/* Turns on Display Flex */
+.d-flex {
+    display: flex;
+}
+
+/* flex-direction */
+/* Changes flex direction from x axis to y axis */
+/* Changes direction into column */
+.fdirect-column {
+    flex-direction: column;
+}
+
+/* justify-content */
+/* Aligns items horizontally */
+
+/* Puts items at the ends and in middle */
+/* |@  @  @| */
+.j-between {
+    justify-content: space-between;
+}
+
+/* Creates space near the ends */
+/* Items are evenly distributed in the line with equal space around them. */
+/* Visually spaces aren't equal because each item creates space */
+/* So distribution of spaces is |1@11@11@1| */
+.j-around {
+    justify-content: space-around;
+}
+
+/* Creates equal space between items and edges */
+/* |1@1@1@1| */
+.j-evenly {
+    justify-content: space-evenly;
+}
+
+/* Centers items */
+/* |  @@@  | */
+.j-center {
+    justify-content: center;
+}
+
+/* Puts items into flex end */
+/* |   @| */
+
+.j-end {
+    justify-content: flex-end;
+}
+
+/* align-items */
+/* Align items aligns items vertically */
+
+/* Align in center */
+.a-center {
+    align-items: center;
+}
+
+/* Puts items at the bottom/end */
+/* flex-end honors flex direction parameters */
+.a-f-end {
+    align-items: flex-end;
+}
+
+/* Puts items at the end */
+.a-end {
+    align-items: end;
+}

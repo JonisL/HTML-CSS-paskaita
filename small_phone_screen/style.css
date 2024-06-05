@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+
+.container {
+    width: 900px;
+}
+
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.direction-col {
+    flex-direction: column;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-end {
+    align-items: end;
+}
+
+.a-start {
+    align-items: start;
+}
+
+.h500 {
+    height: 500px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+
+.gap10 {
+    gap: 10px
+}
+.gap20 {
+    gap: 20px
+}
+
+.flex04 {
+    flex: 0.4;
+}
+
+.flex07 {
+    flex: 0.7;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex4 {
+    flex: 4;
+}
+
+/*CUSTOM STYLES*/
+
+.phone {
+    width: 400px;
+    position: relative;
+}
+
+header {
+    height: 200px;
+    background-image: url("https://cdn.thewirecutter.com/wp-content/uploads/2017/08/01-hangers-in-use-best-hangers-630-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header div {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,52,253,0.5) 100%);
+}
+
+main {
+    padding-left: 25px;
+    background-color: white;
+}
+
+.profile {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    left: 25px;
+    top: 120px;
+    box-shadow: -1px 13px 47px -25px rgba(0,0,0,0.48);
+    padding-bottom: 20px;
+}
+
+.profile h2 {
+    margin: 10px;
+}
+
+.profile .blueText {
+    color: #2596e0;
+}
+
+.profilePhoto {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url("https://a.storyblok.com/f/191576/1200x800/215e59568f/round_profil_picture_after_.webp");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -50px;
+    left: 125px;
+    box-shadow: -1px 13px 47px -25px rgba(0,0,0,0.80);
+}
+.bottom {
+    color: gray;
+}
+
+.bottom .largeNumber {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.spacer {
+    height: 170px;
+}
+.itemsWrapper {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.collectionItem {
+    display: inline-block;
+    background-image: url("https://www.marthastewart.com/thmb/3--khNsFxt5988VFiHjkroYTVfY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/color-coded-closet-getty-0320-54a047076a794713bf0e872f0302a95b.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+    width: 150px;
+    border-radius: 5px;
+    overflow: hidden;
+    color: white;
+}
+
+.collectionItem > div {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,52,253,0.5) 100%);
+}
+
+.tag {
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.grad1 {
+    background: linear-gradient(90deg, rgb(224, 213, 8) 0%, rgb(255, 49, 141) 100%);
+}
+.grad2 {
+    background: linear-gradient(90deg, rgb(73, 224, 8) 0%, rgb(49, 234, 255) 100%);
+}
+.grad3 {
+    background: linear-gradient(90deg, rgb(8, 102, 224) 0%, rgb(255, 104, 49) 100%);
+}
+.grad4 {
+    background: linear-gradient(90deg, rgb(145, 8, 224) 0%, rgb(49, 255, 101) 100%);
+}

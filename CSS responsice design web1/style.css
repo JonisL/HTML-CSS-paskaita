@@ -1,0 +1,480 @@
+body {
+    margin: 0;
+    /*font-family: monospace;*/
+    font-family: 'Open Sans Bold', sans-serif;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*padding: 50px;*/
+}
+
+
+.container {
+    width: 1000px;
+    padding: 0 20px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.direction-col {
+    flex-direction: column;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-end {
+    align-items: end;
+}
+
+.a-start {
+    align-items: start;
+}
+
+.h500 {
+    height: 500px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.gap10 {
+    gap: 10px
+}
+
+.gap20 {
+    gap: 20px
+}
+
+.gap30 {
+    gap: 30px
+}
+
+.flex04 {
+    flex: 0.4;
+}
+
+.flex05 {
+    flex: 0.5;
+}
+
+.flex07 {
+    flex: 0.7;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex4 {
+    flex: 4;
+}
+
+.flex5 {
+    flex: 5;
+}
+
+
+.order1 {
+    order: 1
+}
+
+.order2 {
+    order: 2
+}
+
+.order3 {
+    order: 3
+}
+
+.order4 {
+    order: 4
+}
+
+/*CUSTOM STYLES*/
+
+header {
+    height: 300px;
+    background-image: url("https://forum.azyrusthemes.com/images/slide.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    border-bottom: 1px solid #c9cccd;
+    box-shadow: 2px 3px 5px -1px rgba(0,0,0,0.75);
+}
+
+.underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    box-shadow: none;
+    background-color: #f3f5f9;
+    color: #363838;
+    font-size: 14px;
+    padding: 8px 19px;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+.btwWrapper {
+    background-color: #f3f5f9;
+}
+
+.searchButton {
+    border: solid 1px #697683;
+    box-shadow: none;
+    background-color: #697683;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+.greenButton {
+    box-sizing: border-box;
+    height: 38px;
+    padding: 8px 20px;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 15px;
+}
+
+.mail {
+    color: #b1b1b1;
+}
+.downIcon {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.profileCircle {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    position: relative;
+
+    background-image: url("https://forum.azyrusthemes.com/images/avatar.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profileCircle > div {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    background-color: mediumspringgreen;
+    border-radius: 100%;
+    border: 2px solid white;
+    right: 0;
+}
+
+/*MAIN SECTION*/
+
+main {
+    background-color: #ecf0f1;
+    padding-bottom: 50px;
+}
+
+.pagination .pageItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 8px;
+    background-color: #d8d8d8;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination .active {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+
+}
+
+.pagination .pageItem:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.pagination span {
+    color: #d0d0d0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pagination span:hover {
+    color: #a3a3a3;
+}
+
+article {
+    background-color: white;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.10);
+
+}
+
+article a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+    color: #9c9c9c;
+}
+article p {
+    color: #9c9c9c;
+}
+
+.line {
+    border-bottom: 1px solid #dcdcdc;
+    margin-top: 10px;
+}
+
+.leftBorder {
+    border-left: 1px solid #dcdcdc;
+    font-size: 12px;
+}
+
+.leftBorder span {
+    font-size: 16px;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.infoBox {
+    background-color: #919191;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+
+aside {
+   background-color: white;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.10);
+    font-size: 14px;
+}
+
+aside .circle {
+    border-radius: 20px;
+    background-color: #919191;
+    color: white;
+    padding: 0 8px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.progressWrapper {
+    height: 30px;
+    background-color: #f2f2f2;
+}
+
+.progressWrapper > div {
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progressColor1 {
+    background-color: #9b59b6;
+    width: 90%;
+}
+.progressColor2 {
+    background-color: #3498db;
+    width: 60%;
+}
+.progressColor3 {
+    background-color: #e67e22;
+    width: 75%;
+}
+
+
+aside .icon {
+    height: 30px;
+    width: 30px;
+    background-color: #d0d0d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.iconActive {
+    background-color: #1abc9c !important;
+}
+
+.d-none {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .order1-md {
+        order: 1
+    }
+
+    .order2-md {
+        order: 2
+    }
+
+    .order3-md {
+        order: 3
+    }
+
+    .direction-row-md {
+        flex-direction: row;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .order1-lg {
+        order: 1
+    }
+
+    .order2-lg {
+        order: 2
+    }
+
+    .order3-lg {
+        order: 3
+    }
+
+    .d-lg-block {
+        display: block;
+    }
+
+    .d-lg-flex {
+        display: flex;
+    }
+
+    .d-lg-column {
+        flex-direction: column;
+    }
+
+    .d-lg-row {
+        flex-direction: row;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .d-block-sm {
+        display: block;
+    }
+
+    .d-flex-sm {
+        display: flex;
+    }
+
+    .direction-column-sm {
+        flex-direction: column;
+    }
+
+    .j-center-sm {
+        justify-content: center;
+    }
+
+    .j-around-sm {
+        justify-content: space-around;
+    }
+
+    .order1-sm {
+        order: 1
+    }
+    .order2-sm {
+        order: 2
+    }
+    .order3-sm {
+        order: 3
+    }
+
+    .flex1-sm {
+        flex:1
+    }
+
+    .flex3-sm {
+        flex:3
+    }
+
+    .flex4-sm {
+        flex:4
+    }
+}
